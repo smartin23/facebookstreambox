@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.7" type="plugin" group="content" method="upgrade">
+	<name>Content - Facebook Stream Box</name>
+	<author>Stephane Martin</author>
+	<creationDate>October 2012</creationDate>
+	<authorEmail>stephane.martin23@gmail.com</authorEmail>
+	<authorUrl>www.lagrangeweb.fr</authorUrl>
+	<version>1.0</version>
+	<description>Replaces {fstreambox} tag in content with Facebook Stream Box</description>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<files>
+		<filename plugin="facebookstreambox">facebookstreambox.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				<field name="fan_id" type="text" size="20" default="" label="Facebook Fan Page ID" description=""/>
+				<field name="app_id" type="text" size="20" default="" label="Facebook Application ID" description=""/>
+				<field name="secret_key" type="text" size="48" default="" label="Facebook Secret Key" description=""/>
+			</fieldset>
+		</fields>
+	</config>
+</install>
