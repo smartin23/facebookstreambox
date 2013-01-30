@@ -13,11 +13,11 @@
 	</files>
 	<config>
 		<fields name="params">
-			<fieldset name="basic">
-				
+			<fieldset name="basic">	
 				<field name="fan_id" type="text" size="20" default="" label="Facebook Fan Page ID" description=""/>
 				<field name="app_id" type="text" size="20" default="" label="Facebook Application ID" description=""/>
 				<field name="secret_key" type="text" size="48" default="" label="Facebook Secret Key" description=""/>
+				<field name="max_stream" type="text" size="8" default="6" label="Max stream items displayed" description=""/>
 			</fieldset>
 		</fields>
 	</config>
